@@ -1,1 +1,3 @@
-Deneme
+GuessTheNumber is a guessing game, created with Python.
+
+The player has to find the selected number in three guesses.
