@@ -6,7 +6,8 @@ def PlayAgain():
         time.sleep(0.7)
         print('Would you like to try again?')
         theAnswer = input()
-        if theAnswer ==  'yes':
+        theAnswer = theAnswer.lower()
+        if theAnswer ==  'yes':    
           GuessTheNumber()
         else:
           print('Ok then. See you later!')
