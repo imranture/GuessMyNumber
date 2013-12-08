@@ -1,7 +1,7 @@
 import random
 import time
 
-# Define the function PlayAgain() that asks user whether the user wishes to play the game again.
+# Define the function PlayAgain() that asks whether the user wishes to play the game again.
 def PlayAgain():
         time.sleep(0.7)
         print('Would you like to try again?')
@@ -16,7 +16,7 @@ print ('Hello, what is your name?')
 myName = input() # User inputs his/her name.
 
 print('It is good to meet you, ' + myName)
-time.sleep(1) # Define the time delay (in this one, 1 second delay).
+time.sleep(1) # Define the time delay (in this case, 1 second delay).
 
 print('I am going to select a number between 1 and 20.')
 time.sleep(2)
@@ -24,7 +24,7 @@ time.sleep(2)
 print('Then, you will have to find my number in 3 guesses to win the game.')
 time.sleep(2)
 
-# Define the function GuessTheNumber() that lets user play the guessing game.
+# Define the function GuessTheNumber() that lets the user play the game.
 def GuessTheNumber():
     print('Let me think...')
     time.sleep(2)
@@ -55,7 +55,7 @@ def GuessTheNumber():
         if guess == number: # If the guessed number is EQUAL to the selected number...
             break
 
-    if guess == number: # If the user SUCCESSFULLY find the number in at least three guesses...
+    if guess == number: # If the user SUCCESSFULLY finds the number in three guesses...
         guessesTaken = str(guessesTaken)
         print('Good job, ' + myName + '. You got it in ' + guessesTaken + ' guesses.')
         PlayAgain()
