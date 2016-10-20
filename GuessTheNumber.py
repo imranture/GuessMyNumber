@@ -7,7 +7,7 @@ def PlayAgain():
         print('Would you like to try again?')
         theAnswer = input()
         theAnswer = theAnswer.lower()
-        if theAnswer ==  'yes':    
+        if theAnswer ==  'yes' or 'yeah' or 'ya' or 'yep':    
           GuessTheNumber()
         else:
           print('Ok then. See you later!')
@@ -27,7 +27,7 @@ time.sleep(2)
 # Define the function GuessTheNumber() that lets the user play the game.
 def GuessTheNumber():
     print('Let me think...')
-    time.sleep(2)
+    time.sleep(4)
 
     # Randomly select a number between 1 and 20 
     number =  random.randint(1,20)
