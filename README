@@ -1,3 +1,5 @@
-GuessTheNumber is a guessing game, created with Python.
+# Guess My Number
+
+GuessMyNumber is a guessing game, created with Python.
 
 The player has to find the selected number in three guesses.
