@@ -7,8 +7,8 @@ def PlayAgain():
         print('Would you like to try again?')
         theAnswer = input()
         theAnswer = theAnswer.lower()
-        if theAnswer ==  'yes' or 'yeah' or 'ya' or 'yep':    
-          GuessTheNumber()
+        if (theAnswer ==  'yes') or (theAnswer ==  'yeah') or (theAnswer ==  'ya') or (theAnswer ==  'yep'):
+                GuessTheNumber()
         else:
           print('Ok then. See you later!')
 
